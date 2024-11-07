@@ -1,0 +1,111 @@
+import { cn } from "@/lib/utils";
+import React from "react";
+
+const Bridge = ({ className }: { className?: string }) => {
+	return (
+		<svg
+			version="1.1"
+			id="Layer_1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlnsXlink="http://www.w3.org/1999/xlink"
+			x="0px"
+			y="0px"
+			viewBox="0 0 294.6 124.7"
+			enableBackground="new 0 0 294.6 124.7"
+			xmlSpace="preserve"
+			className={cn("", className)}
+		>
+			<style type="text/css">
+				{`
+          .st0 { fill: url(#SVGID_1_); }
+          .st1 { fill: url(#SVGID_00000073693629750941448720000011161050470403535024_); }
+          .st2 { fill: url(#SVGID_00000065048655567453748070000002031899853290323094_); }
+        `}
+			</style>
+			<g>
+				<linearGradient
+					id="SVGID_1_"
+					gradientUnits="userSpaceOnUse"
+					x1="349"
+					y1="-73.8193"
+					x2="472"
+					y2="-73.8193"
+					gradientTransform="matrix(1 0 0 -1 -178 -11.8193)"
+				>
+					<stop offset="0" style={{ stopColor: "var(--background)" }} />
+					<stop
+						offset="0.49"
+						style={{ stopColor: "var(--background)", stopOpacity: 0.2 }}
+					/>
+					<stop
+						offset="0.74"
+						style={{ stopColor: "var(--background)", stopOpacity: 0 }}
+					/>
+					<stop
+						offset="1"
+						style={{ stopColor: "var(--background)", stopOpacity: 0 }}
+					/>
+				</linearGradient>
+				<ellipse className="st0" cx="232.5" cy="62" rx="61.5" ry="62" />
+
+				<linearGradient
+					id="SVGID_00000165936637795945289570000014853901917093750188_"
+					gradientUnits="userSpaceOnUse"
+					x1="-178.6075"
+					y1="462.5"
+					x2="-55.6075"
+					y2="462.5"
+					gradientTransform="matrix(-1 0 0 1 -55.6075 -401)"
+				>
+					<stop offset="0" style={{ stopColor: "var(--background)" }} />
+					<stop
+						offset="0.49"
+						style={{ stopColor: "var(--background)", stopOpacity: 0.2 }}
+					/>
+					<stop
+						offset="0.74"
+						style={{ stopColor: "var(--background)", stopOpacity: 0 }}
+					/>
+					<stop
+						offset="1"
+						style={{ stopColor: "var(--background)", stopOpacity: 0 }}
+					/>
+				</linearGradient>
+
+				<ellipse
+					style={{
+						fill: "url(#SVGID_00000165936637795945289570000014853901917093750188_)",
+					}}
+					cx="61.5"
+					cy="61.5"
+					rx="61.5"
+					ry="61.5"
+				/>
+
+				<linearGradient
+					id="SVGID_00000141432792684532214550000001673671323982001816_"
+					gradientUnits="userSpaceOnUse"
+					x1="325.5"
+					y1="-11.8193"
+					x2="325.5"
+					y2="-135.8193"
+					gradientTransform="matrix(1 0 0 -1 -178 -11.8193)"
+				>
+					<stop offset="0" style={{ stopColor: "var(--background)" }} />
+					<stop offset="0.49" style={{ stopColor: "var(--background)" }} />
+					<stop offset="1" style={{ stopColor: "var(--background)" }} />
+				</linearGradient>
+				<path
+					style={{
+						fill: "url(#SVGID_00000141432792684532214550000001673671323982001816_)",
+					}}
+					d="M37,0h221l-25.4,0.1
+            c-33.9,0.1-61.4,27.5-61.4,61.1c0,34.5,28.1,62.5,62.9,62.7L258,124H37l21.9-0.1c34.8-0.2,62.9-28.2,62.9-62.7
+            c0-33.7-27.4-61-61.4-61.1L37,0z"
+				/>
+			</g>
+		</svg>
+	);
+};
+
+export default Bridge;
