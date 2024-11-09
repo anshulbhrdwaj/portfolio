@@ -77,13 +77,13 @@ export const BackgroundBeamsWithCollision = ({
 				borderBottomLeftRadius: "50vh",
 				borderBottomRightRadius: "50vh",
 				y: "-20%",
-			}} 
+			}}
 			animate={{
 				borderBottomLeftRadius: "5vh",
 				borderBottomRightRadius: "5vh",
 				y: "0%",
 			}}
-			transition={{ duration: 0.8, type:"spring" }}
+			transition={{ duration: 0.8, type: "spring" }}
 		>
 			{beams.map((beam) => (
 				<CollisionMechanism
@@ -124,7 +124,7 @@ const CollisionMechanism = React.forwardRef<
 			repeatDelay?: number;
 		};
 	}
->(({ parentRef, containerRef, beamOptions = {} }) => {
+>(({ parentRef, containerRef, beamOptions = {} }, ref) => {
 	const beamRef = useRef<HTMLDivElement>(null);
 	const [collision, setCollision] = useState<{
 		detected: boolean;
@@ -181,7 +181,7 @@ const CollisionMechanism = React.forwardRef<
 				setBeamKey((prevKey) => prevKey + 1);
 			}, 2000);
 		}
-	}, [collision]);
+	}, [collision, ref]);
 
 	return (
 		<>

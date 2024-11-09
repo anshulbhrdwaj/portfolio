@@ -45,14 +45,14 @@ const HamburgerMenu = ({ isActive, setIsActive }: IHamburgerProps) => {
 				}`}
 			>
 				<motion.span
-					className="relative h-px w-1/2 bg-white "
+					className="relative h-px w-1/2 bg-[var(--foreground)] "
 					animate={{
 						rotate: isActive ? 45 : 0,
 						y: isActive ? 0 : -5,
 					}}
 				/>
 				<motion.span
-					className="relative h-px w-1/2 bg-white "
+					className="relative h-px w-1/2 bg-[var(--foreground)] "
 					animate={{
 						rotate: isActive ? -45 : 0,
 						y: isActive ? 0 : 5,
