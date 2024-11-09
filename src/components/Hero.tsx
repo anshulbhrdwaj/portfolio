@@ -3,9 +3,9 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 import { home } from "@/data";
 import { GradientBorderButton } from "@/components/ui/buttons";
 import Link from "next/link";
-import React, { memo } from "react";
+import React from "react";
 
-const Hero = memo(() => {
+const Hero = () => {
 	return (
 		<BackgroundBeamsWithCollision className="flex-col-center gap-10 bg-[var(--background)] h-[90vh] rounded-b-[5vh] pt-8 xl:pt-10">
 			<div className="flex-col-center gap-2 z-10">
@@ -34,6 +34,6 @@ const Hero = memo(() => {
 			</div>
 		</BackgroundBeamsWithCollision>
 	);
-});
+};
 
 export default Hero;

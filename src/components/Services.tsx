@@ -1,11 +1,11 @@
 "use client";
-import React, { memo } from "react";
+import React from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { home } from "@/data";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
-const Services = memo(() => {
+const Services = () => {
 	return (
 		<div className="flex flex-col gap-[10vh] mb-[10vh] ">
 			<div className="bg-[var(--background)] mx-auto w-screen lg:w-9/12 lg:rounded-[5vh] shadow-2xl shadow-[var(--background)] rounded-2xl px-8 py-12 flex-col-center gap-10 lg:p-16">
@@ -46,6 +46,6 @@ const Services = memo(() => {
 			</div>
 		</div>
 	);
-});
+};
 
 export default Services;

@@ -1,13 +1,13 @@
 "use client";
 import { motion } from "framer-motion";
-import React, { memo } from "react";
+import React from "react";
 import Bridge from "./ui/bridge";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import { tools } from "@/lib/marquee";
 import { skillsImage } from "@/lib/skill-image";
 
-const Testimonials = memo(() => {
+const Testimonials = () => {
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -49,6 +49,6 @@ const Testimonials = memo(() => {
 			<Bridge className="h-[10.1vh] z-50 absolute" />
 		</motion.div>
 	);
-});
+};
 
 export default Testimonials;
