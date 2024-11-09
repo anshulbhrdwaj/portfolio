@@ -1,6 +1,5 @@
 "use client";
-import Image from "next/image";
-import React, { useState, Dispatch, SetStateAction, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { menuSlide, scale, slide } from "@/utils/Header/anim";

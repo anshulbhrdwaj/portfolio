@@ -37,7 +37,7 @@ export const home = {
 	},
 	services: {
 		headline: "How We Make Your Website High Converting",
-		items: [
+		steps: [
 			{
 				title: "AI Content Generation",
 				description: (
@@ -93,6 +93,80 @@ export const home = {
 				header: <TechSkeleton />,
 				className: "md:col-span-1",
 				icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+			},
+		],
+		perks: [
+			{
+				id: 1,
+				icon: "/stack-layers.svg",
+				heading: {
+					perk: "Unlimited",
+					of: " design requests",
+				},
+				para: {
+					perk: "Request unlimited design revisions and new",
+					goal: " projects to fully realize your vision.",
+				},
+			},
+			{
+				id: 2,
+				icon: "/lighting.svg",
+				heading: {
+					perk: "Unlimited",
+					of: " design requests",
+				},
+				para: {
+					perk: "Request unlimited design revisions and new",
+					goal: " projects to fully realize your vision.",
+				},
+			},
+			{
+				id: 3,
+				icon: "/user.svg",
+				heading: {
+					perk: "Unlimited",
+					of: " design requests",
+				},
+				para: {
+					perk: "Request unlimited design revisions and new",
+					goal: " projects to fully realize your vision.",
+				},
+			},
+			{
+				id: 4,
+				icon: "/design.svg",
+				heading: {
+					perk: "Unlimited",
+					of: " design requests",
+				},
+				para: {
+					perk: "Request unlimited design revisions and new",
+					goal: " projects to fully realize your vision.",
+				},
+			},
+			{
+				id: 5,
+				icon: "/cost.svg",
+				heading: {
+					perk: "Unlimited",
+					of: " design requests",
+				},
+				para: {
+					perk: "Request unlimited design revisions and new",
+					goal: " projects to fully realize your vision.",
+				},
+			},
+			{
+				id: 6,
+				icon: "/strategy.svg",
+				heading: {
+					perk: "Unlimited",
+					of: " design requests",
+				},
+				para: {
+					perk: "Request unlimited design revisions and new",
+					goal: " projects to fully realize your vision.",
+				},
 			},
 		],
 	},

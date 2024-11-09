@@ -1,15 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'pbs.twimg.com',
-        port: '',
-        pathname: '/profile_images/**', // Matches the path for profile images
-      },
-    ],
-  },
+	images: {
+		remotePatterns: [
+			{
+				protocol: "https",
+				hostname: "pbs.twimg.com",
+				port: "",
+				pathname: "/profile_images/**",
+			},
+			{
+				protocol: "https",
+				hostname: "assets.aceternity.com",
+				port: "",
+				pathname: "/**",
+			},
+		],
+	},
 };
 
 export default nextConfig;
