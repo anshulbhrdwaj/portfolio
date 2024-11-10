@@ -8,8 +8,8 @@ import Image from "next/image";
 const Services = () => {
 	return (
 		<div className="flex flex-col gap-[10vh] mb-[10vh] ">
-			<div className="bg-[var(--background)] mx-auto w-screen lg:w-9/12 lg:rounded-[5vh] shadow-2xl shadow-[var(--background)] rounded-2xl px-8 py-12 flex-col-center gap-10 lg:p-16">
-				<h2 className="text-5xl font-bold ">{home.services.headline}</h2>
+			<div className="bg-[var(--background)] mx-auto w-screen lg:w-9/12 shadow-2xl shadow-[var(--background)] rounded-2xl lg:rounded-[5vh] px-8 py-12 flex-col-center gap-10 lg:p-16">
+				<h2 className="text-5xl font-bold ">{home.services.title}</h2>
 				<BentoGrid className=" mx-auto md:auto-rows-[20rem]">
 					{home.services.steps.map((item, i) => (
 						<BentoGridItem

@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className="bg-gradient-layout">
-			<body className={`font-sans antialiased min-h-[500vh] relative`}>
+			<body className={`font-sans antialiased min-h-[500vh] relative text-[var(--foreground)]`}>
 				
 					<Navbar />
 				{children}
